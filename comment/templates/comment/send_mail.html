@@ -1,0 +1,6 @@
+{#{{ comment_text|safe }}#}
+{% autoescape off %}
+    <p style="font-weight: bolder">{{ comment_text }}</p>
+    <a href="http://localhost:8000{{ url }}">点击查看</a>
+{% endautoescape %}
+<br>
